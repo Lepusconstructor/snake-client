@@ -27,5 +27,5 @@ const handleUserInput = (key) => {
   };
 
 module.exports = {
-  setupInput,
+  setupInput
 }
