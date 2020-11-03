@@ -12,8 +12,6 @@ const connect = function() {
     console.log("Connection to game server established!");
     conn.write("Name: BUN");
     //conn.write("Move: up") will move the snake up automatically everytime we connect so we're not going to write it this way
-    
-
   });
 
   conn.on("data", (data) => {
